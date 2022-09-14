@@ -12,7 +12,7 @@
 
 ## Goal
 
-- Visually match the design provided in Figma file.
+- Visually match the design provided in [Figma file](https://www.figma.com/file/4PkrosuooYTWexRRj9qD6r/web-design-2-exercise?node-id=0%3A1).
 - The final page should respond smoothly to the browser window expanding/collapsing from mobile to widescreen desktop.
 - Since you are only provided with the desktop design, you are free to adjust the layout as you see fit for mobile up to desktop.
 - This exercise should be started when you have time to complete in one sitting or maximum 24 hour period.
