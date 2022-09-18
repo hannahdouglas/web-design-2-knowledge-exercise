@@ -238,8 +238,8 @@ a.btn2 {
   color: #FFFFFF;
   text-align: center;
 
-  padding-top: 6.75em;
-  padding-bottom: 7.5em;
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
 
 .max-length {
@@ -298,12 +298,21 @@ footer li {
 @media only screen and (min-width: 25em) {
 
   .announcement {
-    font-size: 1em;
+    font-size: 0.75em;
+    height: 30px;
   }
 
   h2 {
     font-size: 2rem;
     line-height: 1.05;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1em;
   }
 
   .navbar {
@@ -314,7 +323,6 @@ footer li {
   }
 
   .hero-text {
-    width: 100%;
     padding-top: 12rem;
     padding-bottom: 10rem;
   }
@@ -342,7 +350,7 @@ footer li {
     padding-right: 2rem;
   }
 
-  h1 {
+  h1, h2 {
     text-align: left;
   }
 
@@ -407,6 +415,11 @@ footer li {
 
   .hans-text span {
     font-size: 0.9em;
+  }
+
+  .our-top-picks {
+    padding-top: 6.75em;
+    padding-bottom: 7.5em;
   }
 
   .grid {
