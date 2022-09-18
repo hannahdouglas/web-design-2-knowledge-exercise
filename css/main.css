@@ -56,7 +56,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.25;
   margin: 0;
@@ -64,19 +64,20 @@ h2 {
 
 .hero-text {
   width: 50%;
-  padding-top: 17rem;
-  padding-bottom: 12rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .hero-text p {
-  font-size: 0.9em;
+  font-size: 1.25em;
   margin: 0;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 a.btn {
-  padding: .5em 1em;
-  font-size: .9em;
+  padding: 0.75em 1em;
+  font-size: 0.9em;
+  font-weight: 600;
 }
 
 .btn1 {
@@ -85,8 +86,13 @@ a.btn {
   color: #FFFFFF;
 }
 
+h3 {
+  font-size: 1.75em;
+}
+
 h3, p {
   font-weight: 400;
+  margin: 0;
 }
 
 .skip-links {
@@ -103,7 +109,7 @@ h3, p {
 .wrapper {
   margin-left: auto;
   margin-right: auto;
-  max-width: 52em;
+  max-width: 76em;
   width: 100%;
 }
 
@@ -132,6 +138,9 @@ ul {
 
 .list-group-inline > li {
   display: inline-block;
+}
+
+.nav > li {
   margin-left: 40px;
 }
 
@@ -165,9 +174,37 @@ section div {
   color: #FFFFFF;
 }
 
+.meet-hans {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
 .hans-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.hans-text {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.hans-text span {
+  font-size: 0.9em;
+}
+
+.hans-text p {
+  font-size: 0.9em;
+}
+
+a.btn2 {
+  background-color: #222222;
+  color: #FFFFFF;
 }
 
 .text-center {
@@ -184,11 +221,32 @@ section div {
 
   color: #FFFFFF;
   text-align: center;
+
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36em;
+  width: 100%;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+a.btn3 {
+  background-color: #FFFFFF;
+  color: #928881;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  padding-bottom: 1.5em;
 }
 
 .grid li {
