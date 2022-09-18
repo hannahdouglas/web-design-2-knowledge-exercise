@@ -58,6 +58,9 @@ nav ul {
   font-family: 'Oscine', sans-serif;
   font-weight: 700;
   font-style: normal;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
@@ -82,11 +85,26 @@ a {
   text-decoration: none;
 }
 
+section {
+  display: flex;
+}
+
+section div {
+  width: 100%;
+}
+
+section div.hero-banner {
+  order: -1;
+}
+
 .hero-banner {
   background-image: url("../images/nitro-banner-desktop.jpg");
   background-color: #928881;
   background-repeat: no-repeat repeat;
   background-size: cover;
+  background-position: center;
+  position: relative;
+
   color: #FFFFFF;
 }
 
@@ -95,6 +113,8 @@ a {
   background-color: #928881;
   background-repeat: no-repeat repeat;
   background-size: cover;
+  background-position: center;
+  position: relative;
 
   color: #FFFFFF;
   text-align: center;
