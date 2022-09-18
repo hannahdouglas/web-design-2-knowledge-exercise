@@ -115,6 +115,7 @@ a.btn {
   border-style: solid;
   border-width: thin;
   color: #FFFFFF;
+  z-index: 15;
 }
 
 .skip-links {
@@ -147,6 +148,11 @@ nav ul {
 
   display: block;
   justify-content: center;
+}
+
+nav ul a:hover {
+  color: #222222;
+  text-decoration: underline;
 }
 
 ul {
@@ -223,6 +229,11 @@ a.btn2 {
   color: #FFFFFF;
 }
 
+a.btn2:hover {
+  background-color: #928881;
+  color: #FFFFFF;
+}
+
 .text-center {
   text-align: center;
 }
@@ -256,6 +267,11 @@ a.btn2 {
 a.btn3 {
   background-color: #FFFFFF;
   color: #928881;
+}
+
+a.btn3:hover {
+  background-color: #222222;
+  color: #FFFFFF;
 }
 
 .grid {
@@ -293,6 +309,10 @@ footer {
 
 footer li {
   margin: 0;
+}
+
+.icon:hover path {
+  fill: #928881;
 }
 
 @media only screen and (min-width: 25em) {
@@ -351,6 +371,10 @@ footer li {
   .gutter {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  h2, .hero-text p {
+    text-align: left;
   }
 
   h3 {
@@ -441,11 +465,7 @@ footer li {
   }
 
   footer li {
-    margin: 0 0.25em;
+    margin: 0 0em;
   }
-
-}
-
-@media only screen and (min-width: 90em) {
 
 }
