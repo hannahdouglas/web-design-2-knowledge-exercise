@@ -23,7 +23,7 @@
       <h1 aria-label="Happy Goat Coffee Company">
         <img class="logo" src="images/hg-logo-white.png" alt="" title="Happy Goat Coffee Company">
       </h1>
-      <nav role="navigation">
+      <nav role="navigation" id="nav">
         <ul class="nav list-group-inline">
           <li><a href="">Shop</a></li>
           <li><a href="">Subscription</a></li>
@@ -34,33 +34,36 @@
       </nav>
     </div>
   </header>
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#banner">Jump to banner</a></li>
+    <li><a href="#hans">Jump to about Hans</a></li>
+    <li><a href="#top-picks">Jump to our top picks</a></li>
+  </ul>
 
 
   <main role="main">
     <section>
-      <div class="meet-hans wrapper">
-        At the core of our coffee is a sense of community
-
-        <h3>Master Roaster Hans</h3>
-
-        <p>From partnerships with passionate local farmers, our tight-knit group of dedicated employees, and environmentally-conscious buyers like you. Constantly improving the quality and sustainability of our coffee demands meticulous roasting knowledge paired with a love for the uniting power of coffee, and no one demonstrates that more than Master Roaster Hans. Discover the man behind Happy Goat Coffee Co.’s beautiful beans.</p>
-
-        <a href="">Meet Hans</a>
-      </div>
-    </section>
-    <section>
-      <div class="hero-banner" role="banner">
+      <div class="hero-banner" role="banner" id="banner">
         <div class="wrapper">
           <h2>New Nitro-Infused Cold Brew</h2>
-
           <p>A zero-sugar, directly-traded, energy boost for busy mornings and last-minute adventures. Rich, sweet, and creamy all in one with subtle notes of dark chocolate.</p>
-
           <a href="">Shop Now</a>
         </div>
       </div>
     </section>
+
     <section>
-      <div class="our-top-picks">
+      <div class="meet-hans wrapper" id="hans">
+        <p>At the core of our coffee is a sense of community</p>
+        <h3>Master Roaster Hans</h3>
+        <p>From partnerships with passionate local farmers, our tight-knit group of dedicated employees, and environmentally-conscious buyers like you. Constantly improving the quality and sustainability of our coffee demands meticulous roasting knowledge paired with a love for the uniting power of coffee, and no one demonstrates that more than Master Roaster Hans. Discover the man behind Happy Goat Coffee Co.’s beautiful beans.</p>
+        <a href="">Meet Hans</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="our-top-picks" id="top-picks">
         <div class="wrapper">
           <h3>Our Top Picks</h3>
           <p>Find your new favourite among our speciality coffees, sustainably sourced from the world's most historic coffee regions.</p>
@@ -74,7 +77,6 @@
         </div>
       </div>
     </section>
-
   </main>
 
 
