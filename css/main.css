@@ -82,6 +82,7 @@ a {
   background-color: #928881;
   background-repeat: no-repeat repeat;
   background-size: cover;
+  color: #FFFFFF;
 }
 
 .our-top-picks {
@@ -89,11 +90,17 @@ a {
   background-color: #928881;
   background-repeat: no-repeat repeat;
   background-size: cover;
+  color: #FFFFFF;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid li {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 figure {
