@@ -303,7 +303,7 @@ footer li {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 1.05;
   }
 
@@ -337,9 +337,12 @@ footer li {
   }
 
   h2 {
-    font-size: 1.75rem;
     line-height: 1.25;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
 }
 
@@ -348,10 +351,6 @@ footer li {
   .gutter {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  h1, h2 {
-    text-align: left;
   }
 
   h3 {
@@ -368,7 +367,7 @@ footer li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: -110px;
+    margin-bottom: -115px;
     z-index: 5;
 
     padding-top: 1em;
