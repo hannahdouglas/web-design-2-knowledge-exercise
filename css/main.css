@@ -98,6 +98,8 @@ a {
 
 section {
   display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 section div {
@@ -113,6 +115,19 @@ section div {
   position: relative;
 
   color: #FFFFFF;
+}
+
+.hans-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text-center {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
 }
 
 .our-top-picks {
@@ -147,6 +162,13 @@ figcaption {
 
 .img-flex {
   display: block;
-  max-width: 275px;
+  max-width: 600px;
   width: 100%;
+}
+
+footer {
+  text-align: center;
+
+  padding-top: 4em;
+  padding-bottom: 3em;
 }
