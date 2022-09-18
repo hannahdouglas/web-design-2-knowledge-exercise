@@ -34,11 +34,9 @@ body {
 }
 
 header {
-  background-image: url("../images/nitro-banner-desktop.jpg");
-  background-repeat: no-repeat repeat;
-  background-size: cover;
   width: 100%;
   color: #FFFFFF;
+  background-color: #928881;
 }
 
 .wrapper {
@@ -57,16 +55,57 @@ img.logo {
 }
 
 nav ul {
-  list-style: none;
   font-family: 'Oscine', sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-li {
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
   display: inline;
 }
 
 li a {
   color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-banner {
+  background-image: url("../images/nitro-banner-desktop.jpg");
+  background-color: #928881;
+  background-repeat: no-repeat repeat;
+  background-size: cover;
+}
+
+.our-top-picks {
+  background-image: url("../images/background-taupe.jpeg");
+  background-color: #928881;
+  background-repeat: no-repeat repeat;
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.img-flex {
+  display: block;
+  max-width: 275px;
+  width: 100%;
 }

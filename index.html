@@ -23,7 +23,7 @@
       <h1 aria-label="Happy Goat Coffee Company">
         <img class="logo" src="images/hg-logo-white.png" alt="" title="Happy Goat Coffee Company">
       </h1>
-      <nav>
+      <nav role="navigation">
         <ul class="nav">
           <li><a href="">Shop</a></li>
           <li><a href="">Subscription</a></li>
@@ -36,46 +36,51 @@
   </header>
 
 
-  <main>
-    <div class="wrapper">
-      <section>
-        <div class="meet-hans">
-          At the core of our coffee is a sense of community
+  <main role="main">
+    <section>
+      <div class="meet-hans wrapper">
+        At the core of our coffee is a sense of community
 
-          <h3>Master Roaster Hans</h3>
+        <h3>Master Roaster Hans</h3>
 
-          <p>From partnerships with passionate local farmers, our tight-knit group of dedicated employees, and environmentally-conscious buyers like you. Constantly improving the quality and sustainability of our coffee demands meticulous roasting knowledge paired with a love for the uniting power of coffee, and no one demonstrates that more than Master Roaster Hans. Discover the man behind Happy Goat Coffee Co.’s beautiful beans.</p>
+        <p>From partnerships with passionate local farmers, our tight-knit group of dedicated employees, and environmentally-conscious buyers like you. Constantly improving the quality and sustainability of our coffee demands meticulous roasting knowledge paired with a love for the uniting power of coffee, and no one demonstrates that more than Master Roaster Hans. Discover the man behind Happy Goat Coffee Co.’s beautiful beans.</p>
 
-          <a href="">Meet Hans</a>
-        </div>
-      </section>
-        <div class="hero-banner">
+        <a href="">Meet Hans</a>
+      </div>
+    </section>
+    <section>
+      <div class="hero-banner" role="banner">
+        <div class="wrapper">
           <h2>New Nitro-Infused Cold Brew</h2>
 
           <p>A zero-sugar, directly-traded, energy boost for busy mornings and last-minute adventures. Rich, sweet, and creamy all in one with subtle notes of dark chocolate.</p>
 
           <a href="">Shop Now</a>
         </div>
-      <section>
-        <div class="our-top-picks">
-          Our Top Picks
-
-          NEW Nitro Cold Brew from $3.99
-          Brazil Mogiana from $19.00
-          Costa Rica Farmers Blend from $19.00
-          Coffee Subscription $42.00
-
-          View all
+      </div>
+    </section>
+    <section>
+      <div class="our-top-picks">
+        <div class="wrapper">
+          <h3>Our Top Picks</h3>
+          <ul class="grid">
+            <li><a href=""><figure><img class="img-flex" src="images/nitro-cold-brew.png" alt="Nitro Cold Brew"><figcaption>NEW Nitro Cold Brew from $3.99</figcaption><figure></a></li>
+            <li><a href=""><figure><img class="img-flex" src="images/brazil-mogiana.png" alt="Brazil Mogiana"><figcaption>Brazil Mogiana from $19.00</figcaption><figure></a></li>
+            <li><a href=""><figure><img class="img-flex" src="images/costarica-poas-farmers-blend.png" alt="Rica Framers Blend"><figcaption>Rica Farmers Blend from $19.00</figcaption><figure></a></li>
+            <li><a href=""><figure><img class="img-flex" src="images/coffee-Subscription.png" alt="Coffee Subscription"><figcaption>Coffee Subscription $42.00</figcaption><figure></a></li>
+          </ul>
+        <a href="">View all</a>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
   </main>
 
 
-  <footer>
+  <footer role="contentinfo">
     <div class="wrapper">
       Social media icons (see image folder for svgs)
-      © 2022 Happy Goat Coffee
+      <p>© 2022 Happy Goat Coffee</p>
     </div>
   </footer>
 
