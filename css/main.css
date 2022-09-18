@@ -58,25 +58,24 @@ h1 {
 h2 {
   font-size: 4rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.05;
   margin: 0;
 }
 
 .hero-text {
   width: 50%;
-  padding-top: 15rem;
+  padding-top: 21rem;
   padding-bottom: 15rem;
 }
 
 .hero-text p {
-  font-size: 1.25em;
   margin: 0;
   padding-bottom: 2em;
 }
 
 a.btn {
-  padding: 0.75em 1em;
-  font-size: 0.9em;
+  padding: 0.75em 1.25em;
+  font-size: 1em;
   font-weight: 600;
 }
 
@@ -88,11 +87,17 @@ a.btn {
 
 h3 {
   font-size: 1.75em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 h3, p {
   font-weight: 400;
   margin: 0;
+}
+
+p {
+  font-size: 1.25em;
 }
 
 .skip-links {
@@ -194,11 +199,11 @@ section div {
   text-transform: uppercase;
 }
 
-.hans-text span {
-  font-size: 0.9em;
+.hans-text div {
+  padding-bottom: 3em;
 }
 
-.hans-text p {
+.hans-text span {
   font-size: 0.9em;
 }
 
@@ -222,8 +227,8 @@ a.btn2 {
   color: #FFFFFF;
   text-align: center;
 
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 6.75em;
+  padding-bottom: 7.5em;
 }
 
 .max-length {
@@ -273,4 +278,8 @@ footer {
 
   padding-top: 4em;
   padding-bottom: 3em;
+}
+
+footer li {
+  margin: 0 0.25em;
 }
