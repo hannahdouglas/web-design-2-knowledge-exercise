@@ -65,8 +65,13 @@ ul {
   padding: 0;
 }
 
-nav li {
-  display: inline;
+.list-group-inline {
+  padding-left: none;
+  list-style-type: none;
+}
+
+.list-group-inline > li {
+  display: inline-block;
 }
 
 li a {
@@ -90,7 +95,9 @@ a {
   background-color: #928881;
   background-repeat: no-repeat repeat;
   background-size: cover;
+
   color: #FFFFFF;
+  text-align: center;
 }
 
 .grid {
